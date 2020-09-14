@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+@SuppressWarnings("PMD")
 public interface Sample {
   public static Map<Integer, Set<String>> groupByScores(Map<String, Integer> scores) {
     Map<Integer, Set<String>> byScores = new HashMap<>();

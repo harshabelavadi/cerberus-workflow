@@ -14,6 +14,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
+@SuppressWarnings("PMD")
 public class AppTest 
 {
     @Test
